@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+    /* Make navigation horizontal */
+    nav {
+        flex-direction: row; /* Horizontal for larger views */
+        justify-content: space-evenly;
+    }
+
+    /* Layout for main content using CSS Grid */
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr; /* Two columns, with 2:1 ratio */
+        gap: 20px;
+    }
+
+    /* Adjust the size of the cards */
+    .card {
+        margin-bottom: 0; /* Remove margin for grid layout */
+    }
+
+    /* Align and center main content */
+    main {
+        max-width: 1200px;
+        margin: 40px auto;
+    }
+}

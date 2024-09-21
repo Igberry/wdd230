@@ -1,0 +1,25 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1E90FF;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #1E90FF;
+}

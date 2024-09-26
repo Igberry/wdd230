@@ -117,7 +117,7 @@ footer p {
     }
 
     /* Stack Learning Activities and Information side by side */
-    .learning-activities {
+    .card-learning-activities {
         grid-column: 1; /* First column (wider) */
     }
 

@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 640px) {
     nav ul {
         flex-direction: row;
         display: flex;
@@ -17,8 +17,5 @@
     .card {
         margin-bottom: 0;
     }
-    main {
-        max-width: 1200px;
-        margin: 40px auto;
-    }
+    
 }

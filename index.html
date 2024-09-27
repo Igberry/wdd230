@@ -7,6 +7,7 @@
     <title>David Chukwudi Igberi - WDD230 - Web Frontend Development</title>
     <meta name="description" content="WDD230 - Web Frontend Development - David Chukwudi Igberi - Home Page Assignment">
     <meta name="author" content="David Chukwudi Igberi">
+    <link rel="stylesheet" href="styles/custom-normalization.css">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -15,19 +16,23 @@
 
 <body>
     <header>
-            <img src="images/mypic.jpg" alt="Image" width="100" height="100">
-            <span>David Chukwudi Igberi</span>
+        <img src="images/mypic.jpg" alt="Image" width="100" height="100">
+        <span>David Chukwudi Igberi</span>
+        <h1>Home</h1>
+        <button id="dark-mode-toggle">⚙️ Dark Mode</button>
+        <div class="hamburger-menu" id="hamburger">
+            &#9776;
+        </div>
+        <nav>
+            <ul id="menu-items"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chamber.html">Chamber</a></li>
+                <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
+
     </header>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-                <a href="chamber.html">Chamber</a>
-                <a href="week01/chamber-stite-plan.html">Site Plan</a>
-                <a href="form.html">Form</a>
-            </li>
-        </ul>
-    </nav>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card learning-activities">
@@ -43,12 +48,12 @@
             </ul>
         </section>
         <!-- Information Section -->
-        <section class="card information">
+        <section class="card-information">
             <h2>Information</h2>
             <p>Weather: (Placeholder)</p>
             <p>Number of visits: (Placeholder)</p>
             <!-- Add more information as needed -->
-            </section>
+        </section>
     </main>
     <footer>
         <p>&copy; <span id="year"></span> David Chukwudi Igberi, Nigeria

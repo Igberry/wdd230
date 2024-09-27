@@ -21,10 +21,31 @@ header span {
     font-weight: bold;       /* Make the name bold */
     color: #fff;             /* Text color */
 }
+.hamburger {
+    display: block;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
 
-
-/* General card styling */
-.card {
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+  
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+  
+button#dark-mode-toggle {
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+  
+.card-information {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -32,10 +53,9 @@ header span {
     margin-bottom: 20px;
 }
 
-/* Grid layout for main */
 main {
     display: grid;
-    grid-template-columns: 1fr; /* Default single column layout */
+    grid-template-columns: 1fr 1fr;/* Default single column layout */
     gap: 20px;
     max-width: 900px; /* Limited width for centering */
     margin: 0 auto;
@@ -75,9 +95,10 @@ nav {
     align-items: center;
     background-color: black;
     padding: 10px;
+    width: 1200px;
 }
 
-nav a {
+nav ul li  a {
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -88,13 +109,15 @@ nav a {
 nav a:hover {
     background-color: brown;
 }
-ul {
+nav ul {
     list-style-type: none; /* Remove bullets */
-    padding-left: 0;
+    padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    
+}
+nav ul li {
+    margin: 0 15px;
 }
 
 /* Footer styling */
@@ -111,7 +134,7 @@ footer p {
 
 
 /* For large screens, create a two-column layout */
-@media (min-width: 640px) {
+@media (max-width: 768px) {
     main {
         grid-template-columns: 2fr 1fr; /* Two-column layout, with Learning Activities twice as wide */
     }
@@ -121,11 +144,33 @@ footer p {
         grid-column: 1; /* First column (wider) */
     }
 
-    .information {
+    .card-information {
         grid-column: 2; /* Second column */
     }
 
-    nav ul li a {
-        padding: 10px 15px; /* Adjust padding for horizontal layout */
+    nav ul {
+        display: none; /* Hide the menu by default */
+        flex-direction: column; /* Stack items vertically */
+        width: 100%;
     }
+    nav ul li {
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+    nav ul li a {
+        display: block;
+        width: 100%;
+    }
+    .hamburger {
+        display: block;
+    }
+    .hamburger-menu {
+        color: white;
+    }
+      
+    #menu-items.show {
+        display: flex;
+    }
+
 }

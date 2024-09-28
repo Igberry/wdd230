@@ -52,6 +52,13 @@ button#dark-mode-toggle {
     background-color: #f9f9f9;
     margin-bottom: 20px;
 }
+.card-learning-activities {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
 
 main {
     display: grid;
@@ -162,7 +169,7 @@ footer p {
         display: block;
         width: 100%;
     }
-    .hamburger {
+    #hamburger {
         display: block;
     }
     .hamburger-menu {

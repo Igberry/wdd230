@@ -57,7 +57,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;/* Default single column layout */
     gap: 20px;
-    max-width: 900px; /* Limited width for centering */
+    max-width: 120000px; /* Limited width for centering */
     margin: 0 auto;
     padding: 20px;
 }

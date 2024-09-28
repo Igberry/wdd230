@@ -102,7 +102,7 @@ nav {
     align-items: center;
     background-color: black;
     padding: 10px;
-    width: 1200px;
+    width: 100%;
 }
 
 nav ul li  a {

@@ -1,0 +1,80 @@
+/* larger.css */
+
+@media (min-width: 768px) {
+
+    /* Header and Navigation */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
+
+    .hamburger {
+        display: none; /* Hide hamburger on larger screens */
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: transparent;
+    }
+
+    .nav-links li {
+        margin: 0 1rem;
+    }
+
+    .nav-links li a {
+        padding: 0.5rem 1rem;
+        color: white;
+        background-color: #1E90FF;
+    }
+    .nav-links li a:hover {
+        color: black;
+    }
+
+    /* Hero Section */
+    .hero {
+        position: relative;
+        height: 50vh;
+    }
+
+    .hero img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .hero .hero-text {
+        font-size: 2rem;
+    }
+
+    /* Event and Weather Section */
+    .event-weather {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    #events, #weather {
+        flex: 1;
+        margin: 0;
+        padding: 2rem;
+    }
+    .spotlights {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .spotlight {
+        flex: 1;
+        margin: 0;
+        padding: 2rem;
+    }
+    footer {
+        padding: 2rem 0;
+    }
+}

@@ -27,8 +27,9 @@
 
     .nav-links li a {
         padding: 0.5rem 1rem;
-        color: white;
-        background-color: #1E90FF;
+        color: black;
+        background-color: white;
+        margin: 5px;
     }
     .nav-links li a:hover {
         color: black;

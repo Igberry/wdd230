@@ -40,6 +40,41 @@ main h3 {
     text-align: center;
     color: black;
 }
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Sidebar takes up 1/4, gallery 3/4 */
+    gap: 20px;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sidebar p {
+    text-align: center;
+    color: white;
+}
+.sidebar h2 {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.sidebar h3 {
+    text-align: center;
+    color: white;
+}
+.sidebar ul li {
+    color: white;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three images per row */
+    gap: 10px;
+}
 h4 {
     color: black;
 }
@@ -158,4 +193,17 @@ footer {
 .nav-links.active {
     display: flex;
 }
+iframe {
+    width: 100%;
+    height: auto;
+}
 
+@media (max-width: 600px) {
+    main {
+        grid-template-columns: 1fr; /* Single column */
+    }
+
+    .gallery {
+        grid-template-columns: 1fr; /* One image per row */
+    }
+}

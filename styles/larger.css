@@ -1,21 +1,42 @@
-@media (min-width: 640px) {
-    nav ul {
-        flex-direction: row;
-        display: flex;
+@media (max-width: 600px) {
+    header {
+        justify-content: start;
+        align-items: center;
+        text-align: center;
     }
-    nav ul li {
-        padding: 0 15px;
+    header img {
+        margin-left: 60px;
     }
-    main {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
+    .nav-links {
+      display: nonoe;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      width: 30%;
+      padding: 1rem;
     }
+
+    .nav-links :hover {
+        color: brown;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-links li {
+      margin: 1.5rem 0;
+      text-align: center;
+    }
+  
     .hamburger {
-        display: none;
-    }
-    .card {
-        margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
     }
     
 }

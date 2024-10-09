@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Chukwudi Igberi - WDD230 - Web Frontend Development</title>
+    <meta name="description" content="WDD230 - Web Frontend Development - David Chukwudi Igberi - Home Page Assignment">
+    <meta name="author" content="David Chukwudi Igberi">
+    <link rel="stylesheet" href="styles/custom-normalization.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/mypic.jpg" type="image/jpg">
+    
+</head>
+
+<body>
+    <header>
+        <img src="images/mypic.webp" alt="Image" width="100" height="100">
+        <span>David Chukwudi Igberi</span>
+        <nav>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chamber/index.html">Chamber</a></li>
+                <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <h1>Apply for Membership</h1>
+    <main>
+        <div class="form-container">
+            <form method="get" action="thankyou.html">
+              <!-- Applicant's First Name -->
+              <label for="first-name">First Name (Required)
+                <input type="text" id="first-name" name="firstName" required>
+              </label>
+              
+              <!-- Applicant's Last Name -->
+              <label for="last-name">Last Name (Required)
+                <input type="text" id="last-name" name="lastName" required>
+              </label>
+              
+              <!-- Applicant's Title/Position -->
+              <label for="position">Title/Position (Min 7 chars, Alpha, hyphen, space)
+                <input type="text" id="position" name="position" pattern="^[a-zA-Z\s\-]{7,}$" placeholder="Example: Marketing Manager">
+              </label>
+              
+              <!-- Email Address -->
+              <label for="email">Email Address (Required)
+                <input type="email" id="email" name="email" required placeholder="example@domain.com">
+              </label>
+              
+              <!-- Mobile Phone Number -->
+              <label for="phone">Mobile Number (Required)
+                <input type="tel" id="phone" name="phone" required>
+              </label>
+              
+              <!-- Organization's Name -->
+              <label for="org-name">Organization's Name (Required)
+                <input type="text" id="org-name" name="organization" required>
+              </label>
+              
+              <!-- Membership Level -->
+              <label for="membership">Select Membership Level:
+                <select id="membership" name="membership" required>
+                  <option value="NP">NP Membership (Non-profit - No Fee)</option>
+                  <option value="Bronze">Bronze Membership</option>
+                  <option value="Silver">Silver Membership</option>
+                  <option value="Gold">Gold Membership</option>
+                </select>
+              </label>
+              
+              <!-- Organization Description -->
+              <label for="description">Organization's Description
+                <textarea id="description" name="description" rows="4" placeholder="Tell us about your organization"></textarea>
+              </label>
+              
+              <!-- Hidden Timestamp -->
+              <input type="hidden" id="timestamp" name="timestamp" value="">
+        
+              <!-- Submit Button -->
+              <input type="submit" value="Submit Application">
+            </form>
+        
+            <!-- Membership Benefits Sidebar -->
+            <aside class="membership-benefits">
+              <h2>Membership Benefits</h2>
+              <ul>
+                <li><strong>NP Membership:</strong> Access to special events.</li>
+                <li><strong>Bronze Membership:</strong> Includes NP benefits plus training access.</li>
+                <li><strong>Silver Membership:</strong> Includes Bronze benefits plus advertising opportunities.</li>
+                <li><strong>Gold Membership:</strong> Includes all previous benefits plus event discounts and spotlight positions.</li>
+              </ul>
+            </aside>
+          </div>
+    </main>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=YourEmbedCodeHere"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <footer>
+        <p>&copy; 2024 <span id="year"></span> David Chukwudi Igberi - Nigeria
+            <img src="images/nigeria.jpg" alt="Nigerian Flag" width="30" height="20">
+        </p>
+        <p>Last updated: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+</body>
+
+</html>

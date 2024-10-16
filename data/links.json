@@ -1,0 +1,70 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "HG Layout"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "mQueries"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/css-grid.html",
+            "title": "CSS Grid"
+          },
+          {
+            "url": "week02/responsive-design.html",
+            "title": "Responsive Design"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week03/javascript-basics.html",
+            "title": "JavaScript Basics"
+          },
+          {
+            "url": "week03/dom-manipulation.html",
+            "title": "DOM Manipulation"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "week04/api-introduction.html",
+            "title": "API Introduction"
+          },
+          {
+            "url": "week04/fetch-api.html",
+            "title": "Fetch API"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "week05/advanced-js.html",
+            "title": "Advanced JavaScript"
+          },
+          {
+            "url": "week05/project.html",
+            "title": "Final Project"
+          }
+        ]
+      }
+    ]
+  }
+  

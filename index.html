@@ -56,11 +56,14 @@
         </section>
         <!-- Information Section -->
         <section class="card-information">
-            <h2>Information</h2>
-            <p>Weather: (Placeholder)</p>
-            <p>Number of visits: (Placeholder)</p>
-            <!-- Add more information as needed -->
+            <h2>Weather Conditions</h2>
+            <p id="temperature">
+                Temperature: <span id="temp-value">--</span> °C
+                <img id="icon" src="" alt="Weather Icon" style="display:none; width: 50px; height: 50px;">
+            </p>
+            <p id="description">Condition: <span id="condition">--</span></p>
         </section>
+        
     </main>
     <iframe
         src="https://www.google.com/maps/embed?pb=YourEmbedCodeHere"
@@ -78,6 +81,8 @@
         <p>Last updated: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/links.js"></script>
 </body>
 
 </html>

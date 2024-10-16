@@ -146,6 +146,19 @@ h2 {
     text-align: center;
     border-radius: 10px;
 }
+#temperature {
+    display: block;
+    align-items: center;
+    font-weight: bold;
+}
+
+#temperature img {
+    margin-left: 5px; /* Adjust the spacing between the temperature and the icon */
+}
+
+#description {
+    font-weight: bold;
+}
 
 
 iframe {

@@ -259,7 +259,7 @@ iframe {
 /* Grid View Styles */
 #member-directory.grid-view {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
 
@@ -322,5 +322,8 @@ iframe {
     
     aside.membership-benefits {
         margin-top: 20px;
+    }
+    #member-directory.grid-view {
+        grid-template-columns: 1fr;
     }
 }

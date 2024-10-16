@@ -164,4 +164,9 @@
         transform: scale(1.05); /* Zoom effect */
         transition: transform 0.3s ease-in-out;
     }
+    #member-directory.grid-view {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
 }

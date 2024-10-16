@@ -1,0 +1,61 @@
+{
+    "members": [
+      {
+        "name": "Tech Solutions",
+        "address": "1234 Elm St, Cityville, XY 12345",
+        "phone": "(123) 456-7890",
+        "website": "https://techsolutions.com",
+        "image": "tech-solutions.jpg",
+        "membershipLevel": "Gold"
+      },
+      {
+        "name": "Creative Agency",
+        "address": "5678 Oak St, Townsville, XY 12345",
+        "phone": "(987) 654-3210",
+        "website": "https://creativeagency.com",
+        "image": "creative-agency.jpg",
+        "membershipLevel": "Silver"
+      },
+      {
+        "name": "Marketing Pro",
+        "address": "2468 Maple Ave, Village, XY 54321",
+        "phone": "(321) 654-9870",
+        "website": "https://marketingpro.com",
+        "image": "marketing-pro.jpg",
+        "membershipLevel": "Bronze"
+      },
+      {
+        "name": "Financial Experts",
+        "address": "987 Pine St, Metropolis, XY 67890",
+        "phone": "(555) 123-4567",
+        "website": "https://financialexperts.com",
+        "image": "financial-experts.jpg",
+        "membershipLevel": "Gold"
+      },
+      {
+        "name": "IT Masters",
+        "address": "333 Cedar Blvd, Technopolis, XY 11223",
+        "phone": "(444) 567-8901",
+        "website": "https://itmasters.com",
+        "image": "it-masters.jpg",
+        "membershipLevel": "Silver"
+      },
+      {
+        "name": "Health & Wellness",
+        "address": "789 Oakwood Dr, Healthville, XY 77889",
+        "phone": "(666) 987-1234",
+        "website": "https://healthwellness.com",
+        "image": "health-wellness.jpg",
+        "membershipLevel": "Bronze"
+      },
+      {
+        "name": "EcoWorld Solutions",
+        "address": "654 Evergreen Rd, Greentown, XY 55555",
+        "phone": "(888) 654-3211",
+        "website": "https://ecoworldsolutions.com",
+        "image": "ecoworld-solutions.jpg",
+        "membershipLevel": "Gold"
+      }
+    ]
+}
+  

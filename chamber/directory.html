@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chamber Page Assignment">
+    <meta name="description" content="Chamber Directory Page Assignment">
     <meta name="author" content="David Chukwudi Igberi">
-    <meta property="og:title" content="Chamber Page Assignment">
+    <meta property="og:title" content="Chamber Directory Page Assignment">
     <meta property="og:type" content="website">
     <meta property="og:image" content="images/bayel.jpg">
     <meta property="og:url" content="https://igberry.github.io/wdd230/chamber/index.html">
-    <title>WDD230 - Chamber Page Assignment - David Chukwudi Igberi</title>
+    <title>WDD230 - Chamber Directory Page Assignment - David Chukwudi Igberi</title>
     <link rel="icon" href="images/bayel.jpg" type="image/jpg">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -32,37 +32,17 @@
     </header>
 
     <main>
-        <section class="hero">
-            <img src="images/bayel.jpg" alt="Chamber of Commerce Hero Image">
-            <div class="hero-text">
-                <h2>Empowering Local Businesses</h2>
-                <a href="join.html" class="cta">Join the Chamber</a>
-            </div>
-        </section>
-        <section class="event-weather">
-            <div id="events">
-                <h3>Current Events</h3>
-                <p>Placeholder for upcoming events...</p>
-            </div>
-            <div id="weather">
-                <h3>Current Weather</h3>
-                <div class="weather-card">
-                    <p>Placeholder for dynamic weather...</p>
-                </div>
-            </div>
-        </section>
-        <h3>Member Spotlights</h3>
-        <section class="spotlights">
-            <div class="spotlight">
-                <h4>Company Name 1</h4>
-                <p>Placeholder for company 1...</p>
-            </div>
-            <div class="spotlight">
-                <h4>Company Name 2</h4>
-                <p>Placeholder for company 2...</p>
-            </div>
-        </section>
-    </main>
+        <h1>Member Directory</h1>
+        
+        <!-- Toggle buttons for Grid/List views -->
+        <div class="view-toggle">
+            <button id="grid-view" class="active">Grid View</button>
+            <button id="list-view">List View</button>
+        </div>
+        
+        <!-- Section to dynamically load the member cards or list -->
+        <section id="member-directory" class="grid-view"></section>
+    </main>    
 
     <footer>
         <p>Contact Us: info@yourchambersite.com</p>

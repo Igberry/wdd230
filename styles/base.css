@@ -94,6 +94,12 @@ main {
 .card-information {
     flex-grow: 1;
 }
+.card-information p {
+    font-family: 'Roboto', sans-serif; /* Repeated use of a clean font */
+    color: black; /* Dark text color for good contrast */
+    margin: 10px 0;
+}
+
 
 /* Flex layout for sections */
 main {
@@ -147,17 +153,27 @@ h2 {
     border-radius: 10px;
 }
 #temperature {
-    display: block;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    font-weight: bold;
+    font-size: 1.2em; /* Slightly larger font for readability */
 }
 
 #temperature img {
-    margin-left: 5px; /* Adjust the spacing between the temperature and the icon */
+    margin-left: 10px; /* Space between temperature text and icon */
 }
 
 #description {
     font-weight: bold;
+    color: green;
+}
+#temp-value {
+    font-weight: bold; /* Emphasize the temperature */
+    color: green; /* Use a noticeable color for contrast */
+}
+
+#condition {
+    font-style: oblique; /* Add emphasis to the weather condition */
 }
 
 

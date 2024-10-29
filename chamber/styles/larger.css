@@ -33,6 +33,7 @@
     }
     .nav-links li a:hover {
         color: #1E90FF;
+        color: black;
     }
 
     /* Hero Section */

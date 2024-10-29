@@ -18,7 +18,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to the Bayelsa Chamber of Commerce</h1>
+        <h1>Contact Us</h1>
         <nav>
             <button class="hamburger">☰</button>
             <ul class="nav-links">
@@ -33,35 +33,20 @@
     </header>
 
     <main>
-        <section class="hero">
-            <img src="images/bayel.jpg" alt="Chamber of Commerce Hero Image">
-            <div class="hero-text">
-                <h2>Empowering Local Businesses</h2>
-                <a href="join.html" class="cta">Join the Chamber</a>
-            </div>
-        </section>
-        <section class="event-weather">
-            <div id="events">
-                <h3>Current Events</h3>
-                <p>Placeholder for upcoming events...</p>
-            </div>
-            <div id="weather">
-                <h3>Current Weather</h3>
-                <div class="weather-card">
-                    <p>Placeholder for dynamic weather...</p>
-                </div>
-            </div>
-        </section>
-        <h3>Member Spotlights</h3>
-        <section class="spotlights">
-            <div class="spotlight">
-                <h4>Company Name 1</h4>
-                <p>Placeholder for company 1...</p>
-            </div>
-            <div class="spotlight">
-                <h4>Company Name 2</h4>
-                <p>Placeholder for company 2...</p>
-            </div>
+        <section class="contact-section">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </main>
 
